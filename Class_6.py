@@ -6,6 +6,7 @@ complexnumber = complex(4,2)
 string = "Yawar Hussain"
 char = 'c'
 
+
 list = [
     [234,45,23],
     ["Yawar","HUssain"],        # List is mutable data type
