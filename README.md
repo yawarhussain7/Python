@@ -6,6 +6,7 @@ Class_1
     4. Support multiple programming paradigms
     5. Open source
 
+
     Use of Python
     1.AI
     2. Machine learning
