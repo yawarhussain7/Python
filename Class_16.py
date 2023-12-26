@@ -29,11 +29,10 @@ match x:
     case 20:
         print("Your number is : ",x)
     case _ if x != 40:
-        print("Your number is NOt equal to ",x)
-    case _ if x >= 60:
-        print("Your number is Greater or Equal to ",x)
+        print("Your number is NOt equal to 40 \n Your number is ",x)
+    case _ if x > 60:
+        print("Your number is Greater or Equal to 60 \n YOur number is ",x)
     case _ if x < 80:
-        print("Your number is Less than : ",x)
+        print("Your number is Less than 80 \n Your number is  ",x)
     case _ :
         print("Invalid input")
-        
