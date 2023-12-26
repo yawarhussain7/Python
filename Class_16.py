@@ -29,7 +29,7 @@ match x:
     case 20:
         print("Your number is : ",x)
     case _ if x != 40:
-        print("Your number is NOt equal to 40 \n Your number is ",x)
+        print("Your number is NOt equal to 40 \n Your number is ",x)    #default cases
     case _ if x > 60:
         print("Your number is Greater or Equal to 60 \n YOur number is ",x)
     case _ if x < 80:
