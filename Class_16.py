@@ -22,3 +22,18 @@ match day:
 
 
 x = int(input("Enter the number : "))
+
+match x:
+    case 10:
+        print("Your number is : ",x)
+    case 20:
+        print("Your number is : ",x)
+    case _ if x != 40:
+        print("Your number is NOt equal to ",x)
+    case _ if x >= 60:
+        print("Your number is Greater or Equal to ",x)
+    case _ if x < 80:
+        print("Your number is Less than : ",x)
+    case _ :
+        print("Invalid input")
+        
