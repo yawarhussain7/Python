@@ -8,7 +8,7 @@ print(List)
 List.append(100)
 print(List)
 
-# sort: this function sort the unorder list 
+# sort: this function sort the unorder list  
 List.sort()
 print(List)
 
