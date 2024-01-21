@@ -1,7 +1,7 @@
 print("Tuple in Python ")
 # Tuple are immutable data type 
 
-tup = (2,3,5)       # unchange-able
+tup = (2,3,5,54,67,987)       # unchange-able
 print(tup)
 # tup[0]= 343       Give ERROR 
 print(type(tup))
@@ -23,3 +23,8 @@ if 34 in tup1:
     print("Yes number present")
 else:
     print("Not Present")
+
+print("<<======= String Slicing ==========>>\n")
+
+tup2 = tup[1:]
+print(tup2)
