@@ -1,5 +1,6 @@
 total = int(5*20)
 score  = int(0)
+amount = int(0)
 
 # Questions_01 
 print("Question 1: CPU stand for ?\n ")
@@ -15,12 +16,15 @@ print(Questions_01[2])
 chooice = int(input("Chooice ..."))
 
 if(chooice == 0):
+        amount += 100
         print("Correct");
         score += 20
         print("Your Score is : ",score)
+        print("Your Amount is : ",amount)
 
 elif(chooice == 1 or chooice == 2):
         print("Wrong")
+        print("Your Amount is : ",amount)
         print("Your Score is : ",score)
 print("\n")
 # Questions_02 
@@ -37,13 +41,16 @@ print(Questions_02[2])
 chooice = int(input("Chooice ..."))
 
 if(chooice == 2):
+        amount += 100
         print("Correct");
         score += 20
         print("Your Score is : ",score)
+        print("Your Amount is : ",amount)
 
 elif(chooice == 1 or chooice == 0):
         print("Wrong")
         print("Your Score is : ",score)
+        print("Your Amount is : ",amount)
 print("\n")
 # Questions_03 
 print("Question 1: ROM stand for ?\n ")
@@ -59,12 +66,15 @@ print(Questions_03[2])
 chooice = int(input("Chooice ..."))
 
 if(chooice == 1):
+        amount += 100
         print("Correct");
+        print("Your Amount is : ",amount)
         score += 20
         print("Your Score is : ",score)
 
 elif(chooice == 2 or chooice == 0):
         print("Wrong")
+        print("Your Amount is : ",amount)
         print("Your Score is : ",score)
 
 print("\n")
@@ -82,12 +92,15 @@ print(Questions_04[2])
 chooice = int(input("Chooice ..."))
 
 if(chooice == 2):
+        amount += 100
         print("Correct");
+        print("Your Amount is : ",amount)
         score += 20
         print("Your Score is : ",score)
 
 elif(chooice == 1 or chooice == 0):
         print("Wrong")
+        print("Your Amount is : ",amount)
         print("Your Score is : ",score)
 print("\n")
 # Questions_05
@@ -104,17 +117,21 @@ print(Questions_05[2])
 chooice = int(input("Chooice ..."))
 
 if(chooice == 1):
+        amount += 100
         print("Correct");
+        print("Your Amount is : ",amount)
         score += 20
         print("Your Score is : ",score)
 
 elif(chooice == 2 or chooice == 0):
         print("Wrong")
+        print("Your Amount is : ",amount)
         print("Your Score is : ",score)
 print("\n")
 
 print("Total Number : ",total)
 print("Your Score is : ",score)
+print("Your Amount is : ",amount)
 
 if(total == score):
         print("Congartulation \n You have give all correct number")
