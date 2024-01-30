@@ -2,6 +2,7 @@
 
 
 """ code => edoc
+
     Rules for Encrypt:
     1-  if a massage contain atleast 3 character remove 1st letter and append it at the end 
     2-  append 3 random character at the starting and ending of the massage 
@@ -14,23 +15,31 @@
 
 
 """
-
+print("Encrypting Process ")
 massage = input("Enter your massage : ")
 
-line = int(len(massage))
+line = len(massage)
 
-massage1 = massage
+# massage1
 
 if(line < 3):
-    massage1 = massage[1]+massage[0]
-    
-else:
-    random1="kid"
-    random2="fit"
-    for i in range(0,line):
-        massage1 = massage[i+1]
-    
+    massage1 = massage[1:]+massage[0]
+    print(f"Massage1 = {massage1}")
 
+elif(line > 3):
+    random1 = input("Input 3 Random Character : ")
+    random2 = input("Again Input 3 Random Character : ")
+    massage =  random1 + massage[1:] + massage[0] + random2
+
+else:
+    print(ValueError("ERROR both case are woring "))
 
 print(f"Massage = {massage}")
-print(f"Massage1 = {massage1}")
+    
+
+
+
+
+
+print("\n\nDecrypting Process....")
+
