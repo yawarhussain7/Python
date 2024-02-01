@@ -21,7 +21,7 @@ str = input("Enter your massage : ")
 words = str.split(" ")
 # give chooice for user 
 coding = input("1 => Press for Encrypt \n0 => Press for De-crypt.... ")
-
+# Check the condition
 coding = True if(coding == "1") else False
 print(coding)
 
