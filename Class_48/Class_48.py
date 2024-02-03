@@ -31,3 +31,10 @@ f2 = open("/media/dark/USBNTFS/FinalProject/Python/Python/Class_48/append.txt","
 f2.write("Hello this is append function ")
 
 f2.close()
+
+print("<<<<<<<<<<< Short hand File Handling >>>>>>>>>>>>>>>")
+
+
+# with keyword automatically close the file 
+with open('/media/dark/USBNTFS/FinalProject/Python/Python/Class_48/short.txt','w') as s:
+    s.write("THis is SHort and file handling ")
