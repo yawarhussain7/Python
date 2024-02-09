@@ -9,8 +9,6 @@ class Name:
         self.name = "Yawar Hussain"
         # private 
         self.__age = 21 
-        
-
 
 n1 = Name()
 # Directly access
