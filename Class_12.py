@@ -16,5 +16,5 @@ print(name_1[6])
 
 print("Using for loop in Python ")
 for char in name:
-    print(char);
+    print(char)
     
