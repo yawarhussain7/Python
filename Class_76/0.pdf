@@ -1,0 +1,12 @@
+import os
+files = os.listdir("/media/dark/USBNTFS/FinalProject/Python/Python/Class_76")
+
+print(files)
+
+i = 0
+
+for file in files:
+    file.endswith("L")
+  
+    os.rename(f"/media/dark/USBNTFS/FinalProject/Python/Python/Class_76/{file}",f"/media/dark/USBNTFS/FinalProject/Python/Python/Class_76/{i}.pdf")
+    i = i+1
