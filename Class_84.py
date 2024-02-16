@@ -8,7 +8,6 @@ def usingwhile():
         print(i)
         i += 1
 
-
 def usingfor():
     for i in range(501):
         print(i)
